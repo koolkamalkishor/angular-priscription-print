@@ -1,0 +1,338 @@
+html, body, h1, h2, h3, h4, p, img { margin: 0;} /* margin reset*/
+h1{font-size: 18pt; font-weight: 500; margin-bottom: 0.5cm;}
+h2{font-size: 16pt; font-weight: 500;}
+p{font-size: 12pt;}
+
+.items-group {
+  border-style: solid;
+  border-color: black;
+  border-width: 1pt 1pt 1pt 1pt;
+  border-radius: 5pt;
+  padding: 3pt 3pt 3pt 3pt;
+  margin: 9pt 0 9pt 0;
+}
+
+.logotipo {
+   display: block;
+    max-width: 100%;
+    width: 140px;
+    height: auto;
+}
+
+.label { font-weight: 500;}
+
+.disclaimer, .address p {
+  font-size: 10pt;
+}
+
+.signature-field {
+  padding-bottom: 24pt;
+  border-bottom: solid black 1pt;
+}
+
+
+
+
+/*
+.container {
+  display: grid;
+  grid: "numero numero"
+        "logo loja"
+        "clt-lbl clt"
+        "da-lbl da";
+  grid-row-gap: 1cm;
+}
+
+.label-group {
+  border-left: solid black 1pt;
+  border-top: solid black 1pt;
+  border-top-left-radius: 10pt;
+  padding: 9pt 0 0 9pt
+}
+
+.description-group {
+  border-top: solid black 1pt;
+  padding: 9pt 0 0 9pt
+}
+
+.numero {
+  grid-area: numero;
+}
+
+.loja {
+  grid-area: loja;
+}
+
+.logotipo {
+  grid-area: logo;
+}
+
+.cliente-label {
+  grid-area: clt-lbl;
+}
+
+.cliente {
+  grid-area: clt;
+}
+
+.detalhes-assistencia-label {
+  grid-area: da-lbl;
+}
+
+.detalhes-assistencia {
+  grid-area: da;
+}
+
+*/
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #E0ECEA;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.header_area {
+    border-top: 7px solid #f5907c;
+    border-bottom: 7px double #EAEAEA;
+    padding: 10px;
+    background-color: #f5907c;
+    color: #fff;
+  width:900px;
+    /* width: 1px; */
+}
+.hed-1 {
+    float: left;
+    width: 40%;
+}
+
+.a-one {
+    float: left;
+    width: 55%;
+}
+
+.a-two {
+    float: right;
+    width: 45%;
+}
+
+.address_area {
+    /* border-bottom: 7px double #EAEAEA; */
+    padding: 10px;
+   
+}
+
+.main-footer {
+    border-top: 1px solid #ddd;
+}
+.main-footer {
+    width: 900px;
+    min-height: 50px;
+}
+
+.f1 {
+    float: left;
+    width: 55%;
+}
+
+#link {
+    margin-top: 50px;
+}
+#signature {
+    border-top: 2px dashed rgb(0, 0, 0);
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footer1 {
+    border-top: 7px double #EAEAEA;
+    padding: 10px;
+    background-color: #f5907c;
+    color: #fff;
+}
+
+
+
+@media print {
+        .mini-footer{
+            background: #f5907c !important;
+            text-align: center;
+                 color: #fff !important;
+        }
+
+        .header_area {
+            background:  #f5907c !important; 
+            color: #fff !important;
+        }
+        .footer1 {
+            background:  #f5907c !important; 
+            color: #fff !important;
+        }
+
+        a[href], 
+        a[href]:after,
+        a[href]:before, 
+        .no-print{content:"" !important;display:none !important;visibility:hidden !important;}
+    }
+
+
+
+.container{
+  background: #fff;
+ 
+}
+
+
+/*------------------------*/
+/*header area*/
+/*----------------------*/
+.main-header{
+ 
+  min-height:100px;
+}
+
+.header_area{
+  border-top: 7px solid #f5907c;
+  border-bottom: 7px double #EAEAEA;
+  padding: 0px 15px 10px;
+  background-color: #f5907c;
+  color: #fff;
+ margin-top:15px;
+
+}
+
+.hed-1{
+  float: left;
+  width: 40%;
+}
+.hed-2{
+  float: right;
+  width: 55%;
+}
+
+.address_area{
+  /*border-bottom: 7px double #EAEAEA;*/
+  padding: 10px;
+ 
+}
+.a-one{
+  float: left;
+  width: 55%;
+}
+.a-two{
+  float: right;
+  width: 45%;
+}
+
+.patient_area{
+  border-bottom: 7px double #EAEAEA;
+ 
+}
+/*----------------------------*/
+
+
+/*----------------------------*/
+.left-side{
+  border:1px solid #EAEAEA;
+  float: left;
+  width: 250px;
+  min-height: 500px;
+}
+
+.test-list ul li {
+  list-style: none;
+  font-size: 15px;
+  color: #000;
+  line-height: 25px;
+  margin-left: -40px;
+   
+}
+
+/*----------------------------*/
+
+
+/*----------------------------*/
+.right-side{
+  /*border:1px solid #EAEAEA;*/
+  float: left;
+  width: 550px;
+  min-height: 500px;
+  margin-top:5px;
+}
+
+
+/*-----------------------------------*/
+.main-footer{
+ 
+  min-height: 50px;
+}
+.footer1{
+  border-top: 7px double #EAEAEA;
+  padding: 10px;
+  background-color: #f5907c;
+  color: #fff;
+}
+
+#link{
+  margin-top: 50px;
+}
+#signature{
+  border-top: 2px dashed rgb(0, 0, 0);
+  margin-top: 50px;
+  text-align: center;
+}
+.f1{
+  float: left;
+  width: 55%;
+}
+.f2{
+  float: right;
+  width: 45%;
+}
+/*--------------------------------*/
+li { font-size: 16px;}
+.social-icons ul, .social-icons ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    background: #f5907c;
+}
+
+.social-icons ul li a {
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    line-height: 40px;
+    text-align: center;
+    padding: 0 12px;
+    margin-left: -5px;
+    transition: all .3s ease;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #ddd;
+}
